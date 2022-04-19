@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:id="@+id/itemCity"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:background="@drawable/background_rounded_grey"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:id="@+id/txtCityName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bandung"
+            android:textSize="14sp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+</layout>
